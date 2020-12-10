@@ -1,12 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 
 import { ThemeProvider } from '@material-ui/core/styles';
 import CssBaseline from '@material-ui/core/CssBaseline';
-import GlobalCss from '../styles/global';
-import theme from '../styles/theme';
+import GlobalCss from './styles/global';
+import theme from './styles/theme';
 
 ReactDOM.render(
     <React.StrictMode>
